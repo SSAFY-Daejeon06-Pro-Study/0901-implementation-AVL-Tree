@@ -26,7 +26,8 @@ public interface Tree {
      * 지정된 요소가 트리에 있는 경우 해당 요소를 삭제합니다.
      *
      * @param value 트리에서 삭제할 특정 요소
-     * @return 만약 트리에 지정 요소가 포함되어 정상적으로 삭제되었을 경우 해당 요소를 반환
+     * @return {@code true} 만약 트리에 지정 요소가 포함되어 있어 정상적으로 삭제되었을 경우,
+     *         else, {@code false}
      */
     boolean remove(int value);
 
