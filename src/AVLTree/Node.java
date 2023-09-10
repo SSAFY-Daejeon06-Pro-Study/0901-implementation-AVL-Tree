@@ -5,7 +5,8 @@ package AVLTree;
  * Node 클래스도 알아서 구현
  */
 public class Node {
-    int value;
+    int value, height;
+    Node left, right;
 
     public Node(int value) {
         this.value = value;
