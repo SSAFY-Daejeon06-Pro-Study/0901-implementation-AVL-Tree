@@ -6,8 +6,20 @@ package AVLTree;
  */
 public class Node {
     int value;
+    int height;
+    Node rChild, lChild;
 
     public Node(int value) {
         this.value = value;
     }
 }
+
+//public class Node {
+//    int value;
+//    int height;
+//    Node right, left;
+//
+//    public Node(int value) {
+//        this.value = value;
+//    }
+//}
